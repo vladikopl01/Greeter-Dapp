@@ -1,0 +1,14 @@
+# Compiled output
+node_modules
+
+# Hardhat files
+cache
+artifacts
+typechain
+
+# .env
+.env_*
+
+# Coverage test
+coverage
+coverage.json
