@@ -14,7 +14,8 @@
     "test-verbose": "npx hardhat test --verbose",
     "coverage": "npx hardhat coverage",
     "accounts": "npx hardhat accounts",
-    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "deploy-localhost": "npx hardhat run scripts/deploy.ts --network localhost",
+    "deploy-kovan": "npx hardhat run scripts/deploy.ts --network kovan",
     "prettier": "npx prettier --write ./contracts/**/*.sol",
     "lint-quick": "pretty-quick --staged --pattern \"**/*.*(ts|tsx)\""
   },

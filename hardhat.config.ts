@@ -36,6 +36,12 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: secretConfig.etherscanApiKey,
   },
+  typechain: {
+    outDir: 'frontend/src/typechain',
+  },
+  paths: {
+    artifacts: './frontend/src/artifacts',
+  },
 };
 
 export default config;
